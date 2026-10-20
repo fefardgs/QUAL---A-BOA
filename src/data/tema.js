@@ -1,6 +1,6 @@
-// ===================================================
+// ===========================================
 // PALETA DE CORES DO NOSSO APP
-// ===================================================
+// ===========================================
 
 export const cores = {
     // ---- Fundos ----
@@ -15,8 +15,7 @@ export const cores = {
     textoPrincipal: "#FFFFFF",
     textoSecundario: "#A0A0A0",
 
-    // --- Detalhes ----
-    borda: "#2a2a2a"
-    //linha fininha em volta dos itens da lista
+    // --- Detalhes -----
+    borda: "#2a2a2a",
+    // linha fininha em volta dos itens da lista
 };
-

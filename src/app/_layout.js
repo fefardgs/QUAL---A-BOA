@@ -1,15 +1,14 @@
-//==============================================      
+// ===================================================
 // A "MOLDURA" que envolve todas as telas do app
-//===============================================
+// ===================================================
 
+// CONCEITO: import
+// "Import" traz para cá uma ferramenta que outra pessoa já criou!!
 
-//conceito: IMPORT 
-//"import" trazpara ca uma ferramenta que outra pessoa ja criou 
+// Stack: "pilha de telas". Quando o app tem várias telas, uma abre por cima da outra, como cartas empilhadas. Vem do pacote expo-router.
+import  { Stack } from "expo-router";
 
-//stack:"pilha de telas". Quando o app tem varias telas, uma abre por cima da outra, comocartas empilhadas. Vem do pacote expo-router 
-import{stack} from "expo-router";
-
-//Statusbar = barra la em cima do celular (relogio, bateria, sinal)
+// StatusBar = a barra lá em cima do celular (relógio, bateria, sinal)
 import { StatusBar } from "expo-status-bar";
 
 // CONCEITO
